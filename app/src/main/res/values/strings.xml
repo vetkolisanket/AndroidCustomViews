@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">AndroidCustomViews</string>
     <string name="stack_image_view">Stack Image View</string>
+    <string name="circular_image">Circular Image</string>
 </resources>

@@ -8,12 +8,16 @@
         tools:context=".MainActivity">
 
     <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
-    android:orientation="vertical">
+                  android:orientation="vertical">
+
+        <Button android:id="@+id/btnCircularImage"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="@string/circular_image"/>
 
         <Button
                 android:id="@+id/btnStackImageView"
                 android:layout_width="match_parent" android:layout_height="wrap_content"
-        android:text="@string/stack_image_view"/>
+                android:text="@string/stack_image_view"/>
 
     </LinearLayout>
 

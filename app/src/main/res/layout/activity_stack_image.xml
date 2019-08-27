@@ -1,10 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<FrameLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".StackImageActivity">
+        tools:context=".stack_image_view.StackImageActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <app.com.stackimageview.customviews.StackImageView
+            android:id="@+id/stackImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            app:siv_max_visible_image="5"
+            app:siv_image_gap="-10dp"
+            app:siv_image_dimen="65dp"
+            app:siv_image_border_width="5dp"
+            app:siv_image_border_color="#FFFFFF"
+            app:siv_image_loader_visible="true"
+            app:siv_image_placeholder_dimen="18dp"
+            app:siv_image_loader_color="#FFFFFF"
+            app:siv_image_placeholder_visible="true"
+            app:siv_image_placeholder_source="@mipmap/ic_launcher"
+            app:siv_image_bg_color="#656565"
+            app:siv_count_dimen="65dp"
+            app:siv_count_border_width="5dp"
+            app:siv_count_border_color="#FFFFFF"
+            app:siv_count_position="after"
+            app:siv_count_bg_color="#656565"
+            app:siv_count_text_size="21sp"
+            app:siv_count_text_color="#FFFFFF"
+            app:siv_count_text_font="@font/lobster"
+            app:siv_count_image_instead_of_text="true"
+            app:siv_count_image_dimen="30dp"
+            app:siv_count_image_source="@mipmap/ic_launcher"
+            app:siv_overlap_type="bottom_to_top"/>
+
+</FrameLayout>
