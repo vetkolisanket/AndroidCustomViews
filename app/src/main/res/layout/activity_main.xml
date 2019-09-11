@@ -19,6 +19,11 @@
                 android:layout_width="match_parent" android:layout_height="wrap_content"
                 android:text="@string/stack_image_view"/>
 
+        <Button
+                android:id="@+id/btnStackTextView"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="@string/stack_text_view"/>
+
     </LinearLayout>
 
 </ScrollView>

@@ -9,6 +9,8 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".stack_text_view.StackTextActivity">
+        </activity>
         <activity android:name=".circular_image_view.CircularImageActivity">
         </activity>
         <activity android:name=".stack_image_view.StackImageActivity">
