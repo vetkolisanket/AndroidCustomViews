@@ -3,4 +3,5 @@
     <string name="stack_image_view">Stack Image View</string>
     <string name="circular_image">Circular Image</string>
     <string name="stack_text_view">Stack Text View</string>
+    <string name="timeline_view">Timeline View</string>
 </resources>

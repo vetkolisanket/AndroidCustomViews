@@ -24,6 +24,12 @@
                 android:layout_width="match_parent" android:layout_height="wrap_content"
         android:text="@string/stack_text_view"/>
 
+        <Button
+                android:id="@+id/btnTimelineView"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="@string/timeline_view"
+        />
+
     </LinearLayout>
 
 </ScrollView>
