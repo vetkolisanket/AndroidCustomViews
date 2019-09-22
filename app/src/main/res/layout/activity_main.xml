@@ -30,6 +30,12 @@
         android:text="@string/timeline_view"
         />
 
+        <Button
+                android:id="@+id/btnPollView"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="@string/poll_view"
+        />
+
     </LinearLayout>
 
 </ScrollView>
