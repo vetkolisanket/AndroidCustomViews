@@ -9,6 +9,8 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".badge_view.BadgeViewActivity">
+        </activity>
         <activity android:name=".timeline_view.TimelineViewActivity">
         </activity>
         <activity android:name=".stack_text_view.StackTextActivity">
