@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity
 import com.sanket.androidcustomviews.badge_view.BadgeViewActivity
 import com.sanket.androidcustomviews.circular_image_view.CircularImageActivity
 import com.sanket.androidcustomviews.poll_view.PollViewActivity
+import com.sanket.androidcustomviews.square_image_view.SquareImageActivity
 import com.sanket.androidcustomviews.stack_image_view.StackImageActivity
 import com.sanket.androidcustomviews.stack_text_view.StackTextActivity
 import com.sanket.androidcustomviews.timeline_view.TimelineViewActivity
@@ -26,6 +27,7 @@ class MainActivity : AppCompatActivity() {
         btnTimelineView.setOnClickListener { startActivity(TimelineViewActivity.newIntent(this)) }
         btnBadgeView.setOnClickListener { startActivity(BadgeViewActivity.newIntent(this)) }
         btnPollView.setOnClickListener { startActivity(PollViewActivity.newIntent(this)) }
+        btnSquareImage.setOnClickListener { startActivity(SquareImageActivity.newIntent(this)) }
     }
 
 }
