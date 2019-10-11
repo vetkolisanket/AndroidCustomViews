@@ -7,4 +7,14 @@
         android:layout_height="match_parent"
         tools:context=".square_image_view.SquareImageActivity">
 
+    <com.sanket.androidcustomviews.square_image_view.SquareImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:src="@mipmap/ic_launcher_round"
+            android:scaleType="centerCrop"
+    />
+
 </android.support.constraint.ConstraintLayout>
