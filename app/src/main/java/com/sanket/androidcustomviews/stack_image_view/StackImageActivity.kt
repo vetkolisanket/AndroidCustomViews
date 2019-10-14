@@ -4,7 +4,7 @@ import android.content.Context
 import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import app.com.stackimageview.customviews.StackImageView
 import com.sanket.androidcustomviews.R
 import kotlinx.android.synthetic.main.activity_stack_image.*

@@ -1,7 +1,7 @@
 package com.sanket.androidcustomviews
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import com.sanket.androidcustomviews.badge_view.BadgeViewActivity
 import com.sanket.androidcustomviews.circular_image_view.CircularImageActivity
 import com.sanket.androidcustomviews.poll_view.PollViewActivity
