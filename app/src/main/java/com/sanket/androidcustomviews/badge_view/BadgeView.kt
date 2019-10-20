@@ -3,8 +3,6 @@ package com.sanket.androidcustomviews.badge_view
 import android.content.Context
 import android.util.AttributeSet
 import android.view.LayoutInflater
-import android.view.ViewGroup
-import android.widget.LinearLayout
 import androidx.constraintlayout.widget.ConstraintLayout
 import com.sanket.androidcustomviews.R
 
@@ -25,12 +23,7 @@ class BadgeView: ConstraintLayout {
         val inflater = context.getSystemService(Context
             .LAYOUT_INFLATER_SERVICE) as LayoutInflater
         inflater.inflate(R.layout.activity_badge_view, this)
-        layoutParams = LinearLayout.LayoutParams(
-            ViewGroup.LayoutParams.MATCH_PARENT,
-            ViewGroup.LayoutParams.WRAP_CONTENT
-        )//this is needed, i don't understand why though
-
-
+//        layoutParams = LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT)//this is needed, i don't understand why though
     }
 
 }
