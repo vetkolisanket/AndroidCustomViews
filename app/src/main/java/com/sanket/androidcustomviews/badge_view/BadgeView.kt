@@ -22,7 +22,7 @@ class BadgeView: ConstraintLayout {
     private fun initializeViews() {
         val inflater = context.getSystemService(Context
             .LAYOUT_INFLATER_SERVICE) as LayoutInflater
-        inflater.inflate(R.layout.activity_badge_view, this)
+        inflater.inflate(R.layout.view_badge, this)
 //        layoutParams = LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT)//this is needed, i don't understand why though
     }
 
