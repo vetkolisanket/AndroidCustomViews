@@ -1,6 +1,8 @@
 package com.sanket.androidcustomviews
 
 import android.content.Context
+import android.widget.ImageView
+import com.bumptech.glide.Glide
 
 /**
  * Created by Sanket on 2019-09-11.
@@ -8,3 +10,9 @@ import android.content.Context
 
 
 fun Context.dpToPx(dp: Float) = dp * this.resources.displayMetrics.density
+
+fun ImageView.load(url: String) = Glide.with(this)
+    .load(url)
+//    .placeholder(R.mipmap.ic_launcher)
+//    .error(R.drawable.ic_more_icon)
+    .into(this)

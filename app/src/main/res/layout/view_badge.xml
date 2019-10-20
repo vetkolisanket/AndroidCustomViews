@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
        xmlns:tools="http://schemas.android.com/tools"
-tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+       tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
     <androidx.cardview.widget.CardView
             android:id="@+id/cvImage"
             android:layout_width="165dp"
@@ -21,11 +21,12 @@ tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
         >
 
             <ImageView
+                    android:id="@+id/ivProfilePic"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@mipmap/ic_launcher"
                     android:scaleType="centerCrop"
-            />
+                    android:contentDescription="Profile Picture" tools:ignore="HardcodedText"/>
 
         </androidx.cardview.widget.CardView>
 
@@ -49,11 +50,12 @@ tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
         >
 
             <ImageView
+                    android:id="@+id/ivBadge"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@mipmap/ic_launcher"
                     android:scaleType="centerCrop"
-            />
+                    android:contentDescription="Badge" tools:ignore="HardcodedText"/>
 
         </androidx.cardview.widget.CardView>
 

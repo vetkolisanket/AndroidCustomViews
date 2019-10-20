@@ -7,7 +7,18 @@
         android:layout_height="match_parent"
         tools:context=".badge_view.BadgeViewActivity">
 
-    <include
-        layout="@layout/view_badge"/>
+    <!--<include
+            android:id="@+id/cvBadgeView"
+            layout="@layout/view_badge"
+    />-->
+
+    <com.sanket.androidcustomviews.badge_view.BadgeView
+            android:id="@+id/bvBadgeView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+    />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,6 +5,8 @@ import android.util.AttributeSet
 import android.view.LayoutInflater
 import androidx.constraintlayout.widget.ConstraintLayout
 import com.sanket.androidcustomviews.R
+import com.sanket.androidcustomviews.load
+import kotlinx.android.synthetic.main.view_badge.view.*
 
 /**
  * Created by Sanket on 2019-10-14.
@@ -24,6 +26,16 @@ class BadgeView: ConstraintLayout {
             .LAYOUT_INFLATER_SERVICE) as LayoutInflater
         inflater.inflate(R.layout.view_badge, this)
 //        layoutParams = LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT)//this is needed, i don't understand why though
+    }
+
+    fun setProfilePic(url: String): BadgeView {
+        ivProfilePic.load(url)
+        return this
+    }
+
+    fun setBadge(url: String): BadgeView {
+        ivBadge.load(url)
+        return this
     }
 
 }
