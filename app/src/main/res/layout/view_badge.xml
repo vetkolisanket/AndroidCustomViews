@@ -24,7 +24,7 @@
                     android:id="@+id/ivProfilePic"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@mipmap/ic_launcher"
+                    tools:src="@mipmap/ic_launcher"
                     android:scaleType="centerCrop"
                     android:contentDescription="Profile Picture" tools:ignore="HardcodedText"/>
 
@@ -53,7 +53,7 @@
                     android:id="@+id/ivBadge"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@mipmap/ic_launcher"
+                    tools:src="@mipmap/ic_launcher"
                     android:scaleType="centerCrop"
                     android:contentDescription="Badge" tools:ignore="HardcodedText"/>
 

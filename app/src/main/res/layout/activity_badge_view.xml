@@ -5,7 +5,9 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".badge_view.BadgeViewActivity">
+        tools:context=".badge_view.BadgeViewActivity"
+
+>
 
     <!--<include
             android:id="@+id/cvBadgeView"
@@ -19,6 +21,8 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:profile_pic_drawable="@mipmap/ic_launcher"
+            app:badge_drawable="@mipmap/ic_launcher"
     />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
