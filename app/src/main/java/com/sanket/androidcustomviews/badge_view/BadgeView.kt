@@ -23,13 +23,22 @@ class BadgeView: ConstraintLayout {
         profilePicDrawable = attributes.getDrawable(R.styleable.BadgeView_profile_pic_drawable)
         badgeDrawable = attributes.getDrawable(R.styleable.BadgeView_badge_drawable)
 
-        profilePicDrawable?.let {
-            ivProfilePic.load(it)
-        }
+        setProfilePicDrawable()
+        setBadgeDrawable()
+    }
+
+    private fun setBadgeDrawable() {
         badgeDrawable?.let {
             ivBadge.load(it)
         }
     }
+
+    private fun setProfilePicDrawable() {
+        profilePicDrawable?.let {
+            ivProfilePic.load(it)
+        }
+    }
+
     constructor(context: Context?, attrs: AttributeSet?, defStyleAttr: Int) : super(context, attrs, defStyleAttr)
 
     init {
