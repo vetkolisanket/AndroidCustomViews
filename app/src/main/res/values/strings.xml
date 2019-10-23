@@ -7,4 +7,5 @@
     <string name="poll_view">Poll View</string>
     <string name="badge_view">Badge View</string>
     <string name="square_image">Square Image</string>
+    <string name="divider_view">Divider View</string>
 </resources>
