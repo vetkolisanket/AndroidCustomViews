@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.sanket.androidcustomviews.badge_view.BadgeViewActivity
 import com.sanket.androidcustomviews.circular_image_view.CircularImageActivity
+import com.sanket.androidcustomviews.divider_view.DividerViewActivity
 import com.sanket.androidcustomviews.poll_view.PollViewActivity
 import com.sanket.androidcustomviews.square_image_view.SquareImageActivity
 import com.sanket.androidcustomviews.stack_image_view.StackImageActivity
@@ -28,6 +29,7 @@ class MainActivity : AppCompatActivity() {
         btnBadgeView.setOnClickListener { startActivity(BadgeViewActivity.newIntent(this)) }
         btnPollView.setOnClickListener { startActivity(PollViewActivity.newIntent(this)) }
         btnSquareImage.setOnClickListener { startActivity(SquareImageActivity.newIntent(this)) }
+        btnDividerView.setOnClickListener { startActivity(DividerViewActivity.newIntent(this)) }
     }
 
 }
