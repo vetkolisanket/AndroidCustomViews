@@ -4,7 +4,6 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.viewpager2.widget.MarginPageTransformer
 import com.sanket.androidcustomviews.R
 import kotlinx.android.synthetic.main.activity_mmtview_pager.*
 
@@ -22,8 +21,11 @@ class MMTViewPagerActivity : AppCompatActivity() {
     }
 
     private fun initViews() {
-        vpParent.adapter = MMTViewPagerAdapter()
-        vpParent.setPageTransformer(MarginPageTransformer(50))
+        vpParent.adapter = MMTPagerAdapter(supportFragmentManager)
+//        vpParent.setPageTransformer(MarginPageTransformer(50))
+        vpParent.clipToPadding = false
+        vpParent.setPadding(48, 0, 48, 0)
+        vpParent.pageMargin = 24
     }
 
 }
