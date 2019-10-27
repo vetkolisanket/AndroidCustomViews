@@ -1,54 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
-    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
-                  android:orientation="vertical">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-        <Button android:id="@+id/btnCircularImage"
-                android:layout_width="match_parent" android:layout_height="wrap_content"
-                android:text="@string/circular_image"/>
+        <Button
+                android:id="@+id/btnCircularImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/circular_image" />
 
         <Button
                 android:id="@+id/btnStackImageView"
-                android:layout_width="match_parent" android:layout_height="wrap_content"
-                android:text="@string/stack_image_view"/>
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/stack_image_view" />
 
         <Button
                 android:id="@+id/btnStackTextView"
-                android:layout_width="match_parent" android:layout_height="wrap_content"
-        android:text="@string/stack_text_view"/>
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/stack_text_view" />
 
         <Button
                 android:id="@+id/btnTimelineView"
-                android:layout_width="match_parent" android:layout_height="wrap_content"
-        android:text="@string/timeline_view"
-        />
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/timeline_view" />
 
         <Button
                 android:id="@+id/btnPollView"
-                android:layout_width="match_parent" android:layout_height="wrap_content"
-                android:text="@string/poll_view"
-        />
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/poll_view" />
 
-        <Button android:id="@+id/btnBadgeView"
-                android:layout_width="match_parent" android:layout_height="wrap_content"
-        android:text="@string/badge_view"/>
+        <Button
+                android:id="@+id/btnBadgeView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/badge_view" />
 
-        <Button android:id="@+id/btnSquareImage"
-                android:layout_width="match_parent" android:layout_height="wrap_content"
-        android:text="@string/square_image"
-        />
+        <Button
+                android:id="@+id/btnSquareImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/square_image" />
 
-        <Button android:id="@+id/btnDividerView"
-                android:layout_width="match_parent" android:layout_height="wrap_content"
-                android:text="@string/divider_view"
-        />
+        <Button
+                android:id="@+id/btnDividerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/divider_view" />
+
+        <Button
+                android:id="@+id/btnMMTViewPager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mmt_viewpager" />
 
     </LinearLayout>
 

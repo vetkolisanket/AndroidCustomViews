@@ -8,4 +8,5 @@
     <string name="badge_view">Badge View</string>
     <string name="square_image">Square Image</string>
     <string name="divider_view">Divider View</string>
+    <string name="mmt_viewpager">MMT ViewPager</string>
 </resources>
