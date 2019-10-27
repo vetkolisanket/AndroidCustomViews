@@ -28,4 +28,15 @@
             tools:listitem="@layout/item_mmt_view_holder"
             />
 
+    <androidx.viewpager.widget.ViewPager
+            android:id="@+id/vpChild"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/vpParent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="150dp"
+            tools:listitem="@layout/item_mmt_view_holder"
+            />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
