@@ -28,6 +28,7 @@ class MMTViewPagerActivity : AppCompatActivity() {
         vpChild.clipToPadding = false
         vpChild.setPadding(96, 0, 96, 0)
         vpChild.pageMargin = 48
+        vpParent.setOnTouchListener { _, _ -> true }
         vpChild.addOnPageChangeListener(object : ViewPager.OnPageChangeListener {
             override fun onPageScrollStateChanged(state: Int) {
 
