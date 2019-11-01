@@ -14,5 +14,9 @@
 ### [MMT VIEWPAGER](/app/src/main/java/com/sanket/androidcustomviews/mmt_view_pager)
 
 ### [TimelineView](/app/src/main/java/com/sanket/androidcustomviews/timeline_view)
+To take a list of steps in the timeline along with their progress for now can have 3 step progress:
+- In progress
+- Completed
+- Todo
 #### TODOs
-- [] Make timeline view progress be animatable
+- [ ] Make timeline view progress be animatable
