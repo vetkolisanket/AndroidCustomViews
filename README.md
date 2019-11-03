@@ -12,6 +12,7 @@
 - [ ] Create custom attributes to set profile picture and badge via xml
 
 ### [MMT VIEWPAGER](/app/src/main/java/com/sanket/androidcustomviews/mmt_view_pager)
+- [ ] Make parent view pager swipe while the child view pager is swiping
 
 ### [TimelineView](/app/src/main/java/com/sanket/androidcustomviews/timeline_view)
 To take a list of steps in the timeline along with their progress for now can have 3 step progress:
