@@ -22,3 +22,6 @@ To take a list of steps in the timeline along with their progress for now can ha
 - Todo
 #### TODOs
 - [ ] Make timeline view progress be animatable
+
+####TODOs
+[Facebook-like emotions](/app/src/main/java/com/sanket/androidcustomviews/facebook_like_emotions)
