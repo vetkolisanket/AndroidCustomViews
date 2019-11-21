@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-        package="com.sanket.androidcustomviews">
+    package="com.sanket.androidcustomviews">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-            android:allowBackup="true"
-            android:icon="@mipmap/ic_launcher"
-            android:label="@string/app_name"
-            android:roundIcon="@mipmap/ic_launcher_round"
-            android:supportsRtl="true"
-            android:theme="@style/AppTheme">
-        <activity android:name=".mmt_view_pager.MMTViewPagerActivity"></activity>
-        <activity android:name=".divider_view.DividerViewActivity"></activity>
-        <activity android:name=".square_image_view.SquareImageActivity"></activity>
-        <activity android:name=".poll_view.PollViewActivity"></activity>
-        <activity android:name=".badge_view.BadgeViewActivity"></activity>
-        <activity android:name=".timeline_view.TimelineViewActivity"></activity>
-        <activity android:name=".stack_text_view.StackTextActivity"></activity>
-        <activity android:name=".circular_image_view.CircularImageActivity"></activity>
-        <activity android:name=".stack_image_view.StackImageActivity"></activity>
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".facebook_like_emotions.FLEActivity"></activity>
+        <activity android:name=".mmt_view_pager.MMTViewPagerActivity" />
+        <activity android:name=".divider_view.DividerViewActivity" />
+        <activity android:name=".square_image_view.SquareImageActivity" />
+        <activity android:name=".poll_view.PollViewActivity" />
+        <activity android:name=".badge_view.BadgeViewActivity" />
+        <activity android:name=".timeline_view.TimelineViewActivity" />
+        <activity android:name=".stack_text_view.StackTextActivity" />
+        <activity android:name=".circular_image_view.CircularImageActivity" />
+        <activity android:name=".stack_image_view.StackImageActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

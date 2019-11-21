@@ -65,6 +65,12 @@
                 android:layout_height="wrap_content"
                 android:text="@string/mmt_viewpager" />
 
+        <Button
+            android:id="@+id/btnFLE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/facebook_like_emotions"/>
+
     </LinearLayout>
 
 </ScrollView>
