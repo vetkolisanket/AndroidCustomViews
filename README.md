@@ -25,3 +25,5 @@ To take a list of steps in the timeline along with their progress for now can ha
 
 ####TODOs
 [Facebook-like emotions](/app/src/main/java/com/sanket/androidcustomviews/facebook_like_emotions)
+[WhatsApp-emoji-textview](/app/src/main/java/com/sanket/androidcustomviews/whatsapp_emoji_textview)
+[Plantix-rich-text](/app/src/main/java/com/sanket/androidcustomviews/plantix_rich_text)
