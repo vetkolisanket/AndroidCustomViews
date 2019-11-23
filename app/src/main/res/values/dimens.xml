@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="image_btn_padding">16dp</dimen>
+    <dimen name="image_btn_padding_16">16dp</dimen>
+    <dimen name="card_corner_radius_24">24dp</dimen>
 </resources>

@@ -10,21 +10,97 @@
         android:id="@+id/ivPic"
         android:layout_width="0dp"
         android:layout_height="300dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         android:src="@drawable/ic_placeholder_icon"
-        />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/ibLike"
+        android:id="@+id/ibEmotion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/ivPic"
-        android:src="@drawable/ic_like"
+        android:src="@drawable/ic_thumbs_up_down"
         android:background="@android:color/transparent"
-        android:padding="@dimen/image_btn_padding"
+        android:padding="@dimen/image_btn_padding_16"
         />
+
+    <!--<include
+        android:id="@+id/emotions"
+        layout="@layout/layout_emotions"
+        app:layout_constraintBottom_toTopOf="@id/ibEmotion"
+        app:layout_constraintStart_toStartOf="@id/ibEmotion"
+        android:visibility="gone"
+        tools:visibility="visible"
+        />-->
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/emotions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/card_corner_radius_24"
+        app:layout_constraintBottom_toTopOf="@id/ibEmotion"
+        app:layout_constraintStart_toStartOf="@id/ibEmotion"
+        android:visibility="gone"
+        tools:visibility="visible"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageButton
+                android:id="@+id/ibLike"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:padding="@dimen/image_btn_padding_16"
+                android:src="@drawable/ic_like" />
+
+            <ImageButton
+                android:id="@+id/ibHappy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:padding="@dimen/image_btn_padding_16"
+                android:src="@drawable/ic_happy" />
+
+            <ImageButton
+                android:id="@+id/ibSad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:padding="@dimen/image_btn_padding_16"
+                android:src="@drawable/ic_sad" />
+
+            <ImageButton
+                android:id="@+id/ibNeutral"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:padding="@dimen/image_btn_padding_16"
+                android:src="@drawable/ic_neutral" />
+
+            <ImageButton
+                android:id="@+id/ibSatisfied"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:padding="@dimen/image_btn_padding_16"
+                android:src="@drawable/ic_satisfied" />
+
+            <ImageButton
+                android:id="@+id/ibDissatisfied"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:padding="@dimen/image_btn_padding_16"
+                android:src="@drawable/ic_dissatisfied" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
