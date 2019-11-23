@@ -6,4 +6,25 @@
     android:layout_height="match_parent"
     tools:context=".facebook_like_emotions.FLEActivity">
 
+    <ImageView
+        android:id="@+id/ivPic"
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/ic_placeholder_icon"
+        />
+
+    <ImageButton
+        android:id="@+id/ibLike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivPic"
+        android:src="@drawable/ic_like"
+        android:background="@android:color/transparent"
+        android:padding="@dimen/image_btn_padding"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
