@@ -30,4 +30,7 @@ To take a list of steps in the timeline along with their progress for now can ha
 
 ####TODOs
 [WhatsApp-emoji-textview](/app/src/main/java/com/sanket/androidcustomviews/whatsapp_emoji_textview)
+#### TODOs
+- [ ] Custom text view which can render these emojis
+
 [Plantix-rich-text](/app/src/main/java/com/sanket/androidcustomviews/plantix_rich_text)
